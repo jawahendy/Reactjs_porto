@@ -1,0 +1,68 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+/* Global Variable */
+:root {
+  --main: #005C53;
+  --second: #042940;
+  --third: #8AA6A3;
+  --font_family: "Besley", serif;
+}
+
+* {
+  transition: 0.3s;
+  font-family: var(--font_family);
+}
+
+/* *::selection {
+  background: var(--main);
+  color: var(--white) !important;
+} */
+
+/* .btn {
+  width: 300px;
+  background: var(--third);
+  color: white !important;
+  border-radius: 20px;
+  transition: 0.3s;
+} */
+
+.btn {
+  width: 300px;
+  backdrop-filter: blur(4px);
+  background-color: var(--main);
+  border-radius: 32px;
+  box-shadow: 35px 35px 68px 0px rgba(0, 92, 83, 0.5), inset -0px -0px 16px 0px rgba(0, 92, 83, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--second);
+  color: white;
+  letter-spacing: 5px;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--second);
+}
+
+.content {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.content h6 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.content h6 span {
+  color: var(--main);
+  font-weight: 600;
+  font-size: 60px;
+}

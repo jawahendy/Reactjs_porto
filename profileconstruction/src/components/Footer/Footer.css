@@ -1,0 +1,11 @@
+footer {
+    background: var(--second);
+    padding: 7px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 300;
+    color: white !important;
+}

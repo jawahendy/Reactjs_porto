@@ -1,0 +1,81 @@
+.header {
+    position: relative;
+}
+
+.header img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header .Content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--main);
+}
+
+.header .Content h6 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.custom {
+    margin: 50px auto;
+}
+
+.custom img {
+    padding-top: 50px;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    margin-top: 70px;
+
+}
+
+.profilecard {
+    height: auto;
+    width: auto;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: 35px 35px 68px 0px rgba(0, 92, 83, 0.5), inset -0px -0px 16px 0px rgba(0, 92, 83, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+.custom .col-sm-4 div {
+    margin: 20px auto;
+    /* padding-top: 30px; */
+    width: 300px;
+    height: 250px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: 35px 35px 68px 0px rgba(0, 92, 83, 0.5), inset -0px -0px 16px 0px rgba(0, 92, 83, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.custom .col-sm-4 h6 {
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 30px 30px;
+    color: var(--main);
+}
+
+.custom .col-sm-4 p {
+    color: var(--third);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+/* .custom .col-sm-4 .profilecard {
+    margin: 20px auto;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: 35px 35px 68px 0px rgba(0, 92, 83, 0.5), inset -0px -0px 16px 0px rgba(0, 92, 83, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    text-align: justify;
+    height: 200px;
+} */

@@ -1,0 +1,43 @@
+.about {
+    position: relative;
+}
+
+.about img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about_main img {
+    margin-bottom: 50px;
+    object-fit: fill;
+    height: 300px;
+    width: 420px;
+    justify-content: space-between;
+}
+
+.about_main .col-sm-7 {
+    height: 290px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: 35px 35px 68px 0px rgba(0, 92, 83, 0.5), inset -0px -0px 16px 0px rgba(0, 92, 83, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+
+}
+
+.about_main .col-sm-7 h6 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.about_main .col-sm-7 span {
+    color: var(--main);
+}
+
+.about_main .col-sm-7 p {
+    text-align: justify;
+}
