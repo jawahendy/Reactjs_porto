@@ -14,19 +14,6 @@
   font-family: var(--font_family);
 }
 
-/* *::selection {
-  background: var(--main);
-  color: var(--white) !important;
-} */
-
-/* .btn {
-  width: 300px;
-  background: var(--third);
-  color: white !important;
-  border-radius: 20px;
-  transition: 0.3s;
-} */
-
 .btn {
   width: 300px;
   backdrop-filter: blur(4px);

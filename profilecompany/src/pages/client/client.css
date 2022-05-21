@@ -1,0 +1,77 @@
+.clients_main .content {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.clients_main .content h6 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--second);
+}
+
+.clients_main .content h6 span {
+    color: var(--main);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+}
+
+.bottom_position {
+    margin-bottom: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    backdrop-filter: blur(0px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: 0px 0px 30px 0px rgba(48, 3, 115, 0.5),
+        inset -5px -5px 16px 0px rgba(48, 3, 115, 0.6),
+        inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: fill;
+    padding: 10px;
+    border-radius: 32px;
+}
+
+.card:hover {
+    box-shadow: -35px 35px 68px 0px rgba(48, 3, 115, 0.5),
+        inset 10px -10px 16px 0px rgba(48, 3, 115, 0.6),
+        inset 0px 11px 28px 0px rgb(255, 255, 255);
+}

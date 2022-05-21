@@ -21,6 +21,7 @@ const Home = () => {
             {/* Custom section */}
             <div className="custom container">
                 <div className="row profilecard">
+
                     <div className="col-sm-4">
                         <img src={Custom} className="img-fluid" alt="" />
                     </div>
