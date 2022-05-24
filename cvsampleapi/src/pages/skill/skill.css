@@ -1,0 +1,23 @@
+.clients_main .content {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.clients_main .content h6 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--second);
+}
+
+.clients_main .content h6 span {
+    color: var(--main);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.clients_main .positionchart {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
