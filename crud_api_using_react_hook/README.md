@@ -20,3 +20,6 @@ api public
 
 ### https://jsonplaceholder.typicode.com/posts
 
+for sample screenshot after run
+
+in folder Screenshot
